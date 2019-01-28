@@ -4,8 +4,8 @@ public class Temperature {
 
 
     String date;
-    String minTemperature;
-    String maxTemperature;
+    private String minTemperature;
+    private String maxTemperature;
     String link;
     public String getDate() {
         return date;
@@ -15,19 +15,19 @@ public class Temperature {
         this.date = date;
     }
 
-    public String getMinTemperature() {
+    String getMinTemperature() {
         return minTemperature;
     }
 
-    public void setMinTemperature(String minTemperature) {
+    void setMinTemperature(String minTemperature) {
         this.minTemperature = minTemperature;
     }
 
-    public String getMaxTemperature() {
+    String getMaxTemperature() {
         return maxTemperature;
     }
 
-    public void setMaxTemperature(String maxTemperature) {
+    void setMaxTemperature(String maxTemperature) {
         this.maxTemperature = maxTemperature;
     }
 

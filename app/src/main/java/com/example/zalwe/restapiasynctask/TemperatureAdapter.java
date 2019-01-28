@@ -12,7 +12,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 public class TemperatureAdapter extends ArrayAdapter<Temperature> {
-    public TemperatureAdapter(@NonNull Context context, ArrayList<Temperature> weatherArrayList) {
+    TemperatureAdapter(@NonNull Context context, ArrayList<Temperature> weatherArrayList) {
         super(context, 0, weatherArrayList);
     }
 
